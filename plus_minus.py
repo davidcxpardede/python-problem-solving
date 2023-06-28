@@ -76,3 +76,11 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
 
     plusMinus(arr)
+
+'''
+New Things I Learned:
+
+1. You can set the decimal places (precision) by using format. The syntax is:
+format(a, '.bf')
+where a is the number and b is the decimal place you want to set.
+'''

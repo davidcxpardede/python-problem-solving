@@ -1,0 +1,1 @@
+This is a compilation of Python programs created to solve technical problems to improve my skills and prepares me for future interview or assessment.
