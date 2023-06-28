@@ -1,5 +1,5 @@
 '''
-Given an array of integers, where all elements but one occur twice, find the unique element.
+''Given an array of integers, where all elements but one occur twice, find the unique element.
 
 Function Description
 The function returns an integer (element that occurs only once).
@@ -61,4 +61,4 @@ if __name__ == '__main__':
 
     fptr.write(str(result) + '\n')
 
-    fptr.close()
+    fptr.close()''
