@@ -60,10 +60,10 @@ def flippingMatrix(matrix):
     
     for i in range(dimension):
         for j in range(dimension):
-            quadrantCombination[0] = [matrix[i][i]]
+            quadrantCombination[0] = [matrix[i][j]]
             quadrantCombination[1] = [matrix[i][len(matrix)-1-j]]
-            quadrantCombination[2] = [matrix[len(matrix)-1-j][i]]
-            quadrantCombination[3] = [matrix[len(matrix)-1-j][len(matrix)-1-j]]
+            quadrantCombination[2] = [matrix[len(matrix)-1-i][j]]
+            quadrantCombination[3] = [matrix[len(matrix)-1-i][len(matrix)-1-j]]
             
             maximumQuadrantSum += max(quadrantCombination)[0]
     
